@@ -1,0 +1,60 @@
+*{
+    box-sizing:content-box;
+    margin:0;
+    padding:0;
+}
+title{
+    display:none;
+}
+body{
+    background-color: rgb(153, 141, 141);
+}
+.container{
+    height:400px;
+    width:300px;
+    margin-left:50%;
+    transform: translateX(-50%);
+    background-color: #ccc;
+    margin-top:5px;
+    border:1px solid red;
+    border-radius:3%;
+    position:relative;
+}
+.main-title{
+    font-size:200%;
+    padding-top:20px;
+    padding-left:10px;
+}
+.under-title{
+    margin-top:30px;
+    margin-left:45px;
+    font-size:120%;
+}
+input{
+    margin-top:30px;
+    height:30px;
+    width:200px;
+    margin-left:45px;
+    padding-left:10px;
+    font-size:105%;
+}
+.which-currency{
+    margin-top:30px;
+    margin-left:45px;
+    font-size:120%;
+}
+.buttons{
+    margin-top:25px;
+}
+.buttons button{
+    height:50px;
+    width:50px;
+    margin-left:35px;
+}
+.score{
+    position:absolute;
+    left:50%;
+    bottom:10%;
+    transform: translate(-50%);
+    font-size:150%;
+}
